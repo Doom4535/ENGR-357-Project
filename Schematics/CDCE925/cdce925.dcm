@@ -1,0 +1,8 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP CDCE925
+D Programmable 2-PLL VCXO Clock Synthesizer
+F http://www.ti.com/lit/ds/symlink/cdce925.pdf
+$ENDCMP
+#
+#End Doc Library

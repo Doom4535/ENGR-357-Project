@@ -1,0 +1,8 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP TS3A5018
+D 10-Ohm Quad SPDT Analog Switch
+F http://www.ti.com/lit/ds/symlink/ts3a5018.pdf
+$ENDCMP
+#
+#End Doc Library

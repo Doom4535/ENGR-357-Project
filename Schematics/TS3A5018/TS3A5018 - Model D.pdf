@@ -1,0 +1,218 @@
+
+
+
+
+
+
+<!DOCTYPE html>
+
+
+
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta content="IE=8;IE=9;IE=edge" http-equiv="x-ua-compatible">
+<meta content='width=device-width, initial-scale=1.0' name='viewport'>
+    <META HTTP-EQUIV="Pragma" CONTENT="no-cache">
+    <META HTTP-EQUIV="Expires" CONTENT="-1">
+
+    <META HTTP-EQUIV="Refresh" CONTENT="1; URL=http://www.ti.com/lit/ml/mpds178g/mpds178g.pdf">
+
+   
+   <script src="/assets/en/js/homepage/jquery-1.7.2.min.js" charset="utf-8"></script>
+   <script type="text/javascript" src="/en/js/shared/commonjsproperties.js" charset="utf-8"></script>
+
+
+    
+
+	
+<script type="text/javascript" src="/js/shared/activitybar.js?versionNumber=1.2" charset="utf-8"></script>
+
+	<script type="text/javascript">
+	var ua = navigator.userAgent;;
+	if(/chrome/i.test(ua)) {
+		setTimeout(function(){window.location='http://www.ti.com/lit/ml/mpds178g/mpds178g.pdf'},2000);
+	}
+
+	/*if (typeof String.prototype.startsWith != 'function') {		  
+	  String.prototype.startsWith = function (str){
+	    return this.indexOf(str) == 0;
+	  };
+	}*/
+
+	//if(version != null && version != '' && typeof version !== 'undefined' && parseInt(version.substring(0,version.indexOf('.'))) >= 31){
+		//setTimeout(function(){window.location='http://www.ti.com/lit/ml/mpds178g/mpds178g.pdf'},2000);
+	//}
+	</script>
+</head>
+<body>
+    <script type="text/javascript">
+    var docCategId;  	
+    var conciseDesc; 		
+    var fileExtension; 		
+    var metrics_litnum; 				
+    var website; 			
+    var partNumber; 			
+    var img; 				
+    var tiPageName;
+    var documentCategoryId 	= 5;
+    var documenttype   = 'Mechanical Drawing';
+    var tiPageNameVar = '%2Fmixed%20signal%20and%20analog%2Fswitches%20and%20multiplexers%2Fsignal%20switches%2Fanalog%20switch%2Fts3a5018%2Fproduct%20folder-ts3a5018-quality%20%26%20packaging-en';
+    var encodedUrl = 'http%3A%2F%2Fwww.ti.com%2Fgeneral%2Fdocs%2Flit%2Fgetliterature.tsp%3FliteratureNumber%3DMPDS178G%26fileType%3Dpdf';
+    var v1EnodeUrl = 'null';
+    var encodedReferer = 'http%3A%2F%2Fwww.ti.com%2Fproduct%2FTS3A5018%2Fquality';
+    var encodeddocType = '%2Fmixed%20signal%20and%20analog%2Fswitches%20and%20multiplexers%2Fsignal%20switches%2Fanalog%20switch%2Fts3a5018';
+    var refdesignType ='null';
+    var encodedmetrics_tpn = 'null';
+    var sbe = 'null';
+    var sbe1 = 'null';
+    var sbe2  = 'null';
+    var encodedgpn= 'null';
+    var description = 'D (R-PDSO-G16) 4040047-6 (Rev. G)';
+    var fileExt = 'PDF';
+    var literatureNumber = 'MPDS178G';
+    var websitevar = 'EN';
+    var genericPartNumber = 'null';
+    var imgvar = document.createElement("img");   
+    var littiPageName ='generic_mkt_collateral_download';
+	
+	
+    if(documentCategoryId!=null){
+    	 docCategId 	= 5;
+	} 
+    if(documenttype!=null){
+    	var metrics_doctype   = 'Mechanical Drawing';
+	}	
+    if(tiPageNameVar!=null){
+    	var metrics_lit_long_page_name = '%2Fmixed%20signal%20and%20analog%2Fswitches%20and%20multiplexers%2Fsignal%20switches%2Fanalog%20switch%2Fts3a5018%2Fproduct%20folder-ts3a5018-quality%20%26%20packaging-en';
+	}
+    if(encodedUrl!=null){
+    	var metrics_dest_url = 'http%3A%2F%2Fwww.ti.com%2Fgeneral%2Fdocs%2Flit%2Fgetliterature.tsp%3FliteratureNumber%3DMPDS178G%26fileType%3Dpdf';
+	}
+    if(v1EnodeUrl!=null){
+    	var metrics_url_params = 'null';
+	}
+    if(encodedReferer!=null){
+    	var metrics_referrer = 'http%3A%2F%2Fwww.ti.com%2Fproduct%2FTS3A5018%2Fquality';
+	}
+   
+    	var metrics_lit_content_group = '%2Fmixed%20signal%20and%20analog%2Fswitches%20and%20multiplexers%2Fsignal%20switches%2Fanalog%20switch%2Fts3a5018';
+	
+    if(refdesignType!=null){
+    	var metrics_tiDesign ='null';
+	}
+    if(encodedmetrics_tpn!=null){
+    	var metrics_tpn = 'null';
+	}
+    if(sbe !=null){
+    	var metrics_division = 'null';
+	}
+    if(sbe1 !=null){
+    	metrics_business_unit = 'null';
+	}
+    if(sbe2 !=null){
+    	var metrics_product_group  = 'null';
+	}
+    if(encodedgpn!=null){
+    	var metrics_product= 'null';
+	}
+    if(description!='null'){
+    	conciseDesc = 'D (R-PDSO-G16) 4040047-6 (Rev. G)';
+	}
+    if(fileExt!='null'){
+    	fileExtension = 'PDF';
+	}
+    if(literatureNumber!=null){
+    	var metrics_litnum = 'MPDS178G';
+	}
+    if(websitevar!=null){
+    	website = 'EN';
+	}
+    if(genericPartNumber!=null){
+    	partNumber = 'null';
+	}
+    if(imgvar!=null){
+    	img = document.createElement("img");  
+	}
+    if(littiPageName!=null){
+    	var tiPageName ='generic_mkt_collateral_download';
+	}
+             
+        if(docCategId != 4 && docCategId != 7){	
+			if(partNumber != null && partNumber != 'null' && partNumber != ''){			
+				var span = '<span id="ab_techdoc" style="display:none">@'+conciseDesc+'|'+website+'|'+partNumber+'_'+metrics_litnum.substring(0,7)+'|'+''+'|0|'+'1460872001249'+'</span>';				
+			}else{		
+			var span = '<span id="ab_techdoc" style="display:none">@'+conciseDesc+'|'+website+'|'+' _'+metrics_litnum.substring(0,7)+'|'+fileExtension+'|0|'+'1460872001249'+'</span>';
+			}
+			document.write(span);
+        }
+          		    		 
+    </script>
+
+<iframe frameborder="0" name="en_abcookie_frame" id="en_ab_frame" width="0" height="0"></iframe>
+<iframe frameborder="0" name="cn_abcookie_frame" id="cn_ab_frame" width="0" height="0"></iframe>
+<iframe frameborder="0" name="jp_abcookie_frame" id="jp_ab_frame" width="0" height="0"></iframe>
+<iframe frameborder="0" name="en_techdoc_cookie_frame" id="en_techdoc_frame" width="0" height="0"></iframe>
+<iframe frameborder="0" name="cn_techdoc_cookie_frame" id="cn_techdoc_frame" width="0" height="0"></iframe>
+<iframe frameborder="0" name="jp_techdoc_cookie_frame" id="jp_techdoc_frame" width="0" height="0"></iframe>
+<iframe frameborder="0" name="en_promo_tracker_frame" id="en_promo_tracker_frame" width="0" height="0"></iframe>
+<iframe frameborder="0" name="cn_promo_tracker_frame" id="cn_promo_tracker_frame" width="0" height="0"></iframe>
+<iframe frameborder="0" name="jp_promo_tracker_frame" id="jp_promo_tracker_frame" width="0" height="0"></iframe>
+
+
+<form id="en_ab_cookie_form" method="POST" target="en_abcookie_frame" action="http://www.ti.com/foldercomponents/docs/comp/getRegionalCookie.tsp">
+	<input type="hidden" value="" name="name" id="name">
+	<input type="hidden" value="" name="value" id="value">
+</form>
+
+<form id="cn_ab_cookie_form" method="POST" target="cn_abcookie_frame" action="http://www.ti.com.cn/foldercomponents/cn/docs/comp/getRegionalCookie.tsp">
+	<input type="hidden" value="" name="name" id="cn_name">
+	<input type="hidden" value="" name="value" id="cn_value">
+</form>
+
+<form id="jp_ab_cookie_form" method="POST" target="jp_abcookie_frame" action="http://www.tij.co.jp/foldercomponents/jp/docs/comp/getRegionalCookie.tsp">
+	<input type="hidden" value="" name="name" id="jp_name">
+	<input type="hidden" value="" name="value" id="jp_value">
+</form>
+
+<form id="en_techdoc_cookie_form" method="POST" target="en_techdoc_cookie_frame" action="http://www.ti.com/foldercomponents/docs/comp/getRegionalCookie.tsp">
+	<input type="hidden" value="" name="name" id="techdoc_name">
+	<input type="hidden" value="" name="value" id="techdoc_value">
+</form>
+
+<form id="cn_techdoc_cookie_form" method="POST" target="cn_techdoc_cookie_frame" action="http://www.ti.com.cn/foldercomponents/cn/docs/comp/getRegionalCookie.tsp">
+	<input type="hidden" value="" name="name" id="cn_techdoc_name">
+	<input type="hidden" value="" name="value" id="cn_techdoc_value">
+</form>
+
+<form id="jp_techdoc_cookie_form" method="POST" target="jp_techdoc_cookie_frame" action="http://www.tij.co.jp/foldercomponents/jp/docs/comp/getRegionalCookie.tsp">
+	<input type="hidden" value="" name="name" id="jp_techdoc_name">
+	<input type="hidden" value="" name="value" id="jp_techdoc_value">
+</form>
+
+<form id="en_promo_tracker_form" method="POST" target="en_promo_tracker_frame" action="http://www.ti.com/foldercomponents/docs/comp/getRegionalCookie.tsp">
+	<input type="hidden" value="" name="name" id="promo_tracker_name">
+	<input type="hidden" value="" name="value" id="promo_tracker_value">
+</form>
+
+<form id="cn_promo_tracker_form" method="POST" target="cn_promo_tracker_frame" action="http://www.ti.com.cn/foldercomponents/cn/docs/comp/getRegionalCookie.tsp">
+	<input type="hidden" value="" name="name" id="cn_promo_tracker_name">
+	<input type="hidden" value="" name="value" id="cn_promo_tracker_value">
+</form>
+
+<form id="jp_promo_tracker_form" method="POST" target="jp_promo_tracker_frame" action="http://www.tij.co.jp/foldercomponents/jp/docs/comp/getRegionalCookie.tsp">
+	<input type="hidden" value="" name="name" id="jp_promo_tracker_name">
+	<input type="hidden" value="" name="value" id="jp_promo_tracker_value">
+</form>
+
+    <script type="text/javascript">
+    com.TI.promo.updateABTechDocCookie();
+    </script>
+    
+    
+
+
+<script type="text/javascript" src="/assets/js/headerfooter/analytics.js" charset="utf-8"></script>
+ 
+        </body>
+    </html>

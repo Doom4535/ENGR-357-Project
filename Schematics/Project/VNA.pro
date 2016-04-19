@@ -1,4 +1,4 @@
-update=4/18/2016 5:37:23 PM
+update=4/18/2016 6:27:50 PM
 version=1
 last_client=kicad
 [pcbnew]
@@ -59,7 +59,8 @@ LibName27=opto
 LibName28=atmel
 LibName29=contrib
 LibName30=valves
-LibName31=C:/Users/aarco/Documents/MEGAsync/Spring Quarter 2016/Electronics II (ENGR 357)/Schematics/ADS131A04/ads131a04
-LibName32=C:/Users/aarco/Documents/MEGAsync/Spring Quarter 2016/Electronics II (ENGR 357)/Schematics/CDCE925/cdce925
-LibName33=C:/Users/aarco/Documents/MEGAsync/Spring Quarter 2016/Electronics II (ENGR 357)/Schematics/INA148/ina148
-LibName34=C:/Users/aarco/Documents/MEGAsync/Spring Quarter 2016/Electronics II (ENGR 357)/Schematics/TS3A5018/ts3a5018
+LibName31=D:/Shared/ENGR 357 Project/Schematics/ADS131A04/ads131a04
+LibName32=D:/Shared/ENGR 357 Project/Schematics/CDCE925/cdce925
+LibName33=D:/Shared/ENGR 357 Project/Schematics/TLV4314/tlv4314
+LibName34=D:/Shared/ENGR 357 Project/Schematics/TS3A5018/ts3a5018
+LibName35=D:/Shared/ENGR 357 Project/Schematics/INA148/ina148

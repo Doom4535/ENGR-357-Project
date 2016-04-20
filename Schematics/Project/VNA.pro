@@ -1,4 +1,4 @@
-update=Wednesday, April 20, 2016 'AMt' 08:59:29 AM
+update=4/20/2016 1:35:05 PM
 version=1
 last_client=kicad
 [pcbnew]
@@ -69,3 +69,4 @@ LibName37=/Users/aaron/Git.repositories/ENGR-357-Project/Schematics/CDCE925/cdce
 LibName38=/Users/aaron/Git.repositories/ENGR-357-Project/Schematics/INA148/ina148
 LibName39=/Users/aaron/Git.repositories/ENGR-357-Project/Schematics/TLV4314/tlv4314
 LibName40=/Users/aaron/Git.repositories/ENGR-357-Project/Schematics/TS3A5018/ts3a5018
+LibName41=D:/Shared/ENGR 357 Project/Schematics/MSP-EXP432P401R/msp432p401r

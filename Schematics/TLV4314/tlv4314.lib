@@ -1,4 +1,4 @@
-EESchema-LIBRARY Version 2.3  Date: 4/18/2016 4:46:12 PM
+EESchema-LIBRARY Version 2.3
 #encoding utf-8
 #
 # TLV4314
@@ -6,6 +6,8 @@ EESchema-LIBRARY Version 2.3  Date: 4/18/2016 4:46:12 PM
 DEF TLV4314 U 0 40 Y Y 1 F N
 F0 "U" 100 -250 60 H V C CNN
 F1 "TLV4314" 100 -250 60 H V C CNN
+F2 "" 0 0 60 H V C CNN
+F3 "" 0 0 60 H V C CNN
 DRAW
 S 400 200 -200 -650 0 1 0 N
 X +INA ~ -500 -50 300 R 50 50 1 1 I

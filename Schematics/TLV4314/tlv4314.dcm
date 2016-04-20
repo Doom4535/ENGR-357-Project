@@ -1,0 +1,8 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP TLV4314
+D TLVx314 3-MHz, Low-Power, Low-Noise, RRIO, CMOS Operational Amplifiers
+F http://www.ti.com/lit/ds/symlink/tlv4314.pdf
+$ENDCMP
+#
+#End Doc Library

@@ -1,4 +1,5 @@
 EESchema Schematic File Version 2
+LIBS:VNA-rescue
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -30,9 +31,10 @@ LIBS:contrib
 LIBS:valves
 LIBS:ads131a04
 LIBS:cdce925
+LIBS:ina148
 LIBS:tlv4314
 LIBS:ts3a5018
-LIBS:ina148
+LIBS:VNA-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
@@ -60,13 +62,13 @@ F 3 "" H 9850 3750 60  0001 C CNN
 $EndComp
 Wire Wire Line
 	9850 3450 9850 3750
-Connection ~ 8150 2150
+Connection ~ 8150 1900
 Wire Wire Line
-	8950 2150 8150 2150
+	8950 1900 8150 1900
 Wire Wire Line
-	8600 2450 8950 2450
+	8600 2200 8950 2200
 Wire Wire Line
-	8630 2050 8954 2050
+	8630 1800 8954 1800
 Wire Wire Line
 	8852 4316 8852 5600
 Wire Wire Line
@@ -249,34 +251,34 @@ Wire Wire Line
 Wire Wire Line
 	2248 5950 5050 5950
 Wire Wire Line
-	8950 2250 8625 2250
+	8950 2000 8625 2000
 Wire Wire Line
-	8950 1950 8150 1950
+	8950 1700 8150 1700
 Wire Wire Line
-	8150 1950 8150 2800
+	8150 1700 8150 2550
 Wire Wire Line
-	8950 2350 8150 2350
-Connection ~ 8150 2350
+	8950 2100 8150 2100
+Connection ~ 8150 2100
 $Comp
 L GND-RESCUE-VNA #PWR?
 U 1 1 57157106
-P 8150 2800
-F 0 "#PWR?" H 8150 2800 30  0001 C CNN
-F 1 "GND" H 8150 2730 30  0001 C CNN
-F 2 "" H 8150 2800 60  0001 C CNN
-F 3 "" H 8150 2800 60  0001 C CNN
-	1    8150 2800
+P 8150 2550
+F 0 "#PWR?" H 8150 2550 30  0001 C CNN
+F 1 "GND" H 8150 2480 30  0001 C CNN
+F 2 "" H 8150 2550 60  0001 C CNN
+F 3 "" H 8150 2550 60  0001 C CNN
+	1    8150 2550
 	1    0    0    -1  
 $EndComp
-Text GLabel 8600 2450 0    60   Input ~ 0
+Text GLabel 8600 2200 0    60   Input ~ 0
 ADC3
 Text GLabel 6275 5400 2    60   Input ~ 0
 ADC3
-Text GLabel 8625 2250 0    60   Input ~ 0
+Text GLabel 8625 2000 0    60   Input ~ 0
 ADC2
 Text GLabel 4975 6150 0    60   Input ~ 0
 ADC2
-Text GLabel 8625 2050 0    60   Input ~ 0
+Text GLabel 8625 1800 0    60   Input ~ 0
 ADC1
 Text GLabel 5018 5402 0    60   Input ~ 0
 ADC1
@@ -619,4 +621,53 @@ F 3 "" H 3001 4586 60  0001 C CNN
 	1    3001 4586
 	1    0    0    -1  
 $EndComp
+$Comp
+L Crystal Y?
+U 1 1 5717A837
+P 750 2550
+F 0 "Y?" H 750 2700 50  0000 C CNN
+F 1 "Crystal" H 750 2400 50  0000 C CNN
+F 2 "" H 750 2550 50  0000 C CNN
+F 3 "" H 750 2550 50  0000 C CNN
+	1    750  2550
+	0    1    1    0   
+$EndComp
+$Comp
+L CONN_02X10 P?
+U 1 1 5717AD09
+P 10700 4700
+F 0 "P?" H 10700 5250 50  0000 C CNN
+F 1 "CONN_02X10" V 10700 4700 50  0000 C CNN
+F 2 "" H 10700 3500 50  0000 C CNN
+F 3 "" H 10700 3500 50  0000 C CNN
+	1    10700 4700
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_02X10 P?
+U 1 1 5717AD68
+P 9750 5600
+F 0 "P?" H 9750 6150 50  0000 C CNN
+F 1 "CONN_02X10" V 9750 5600 50  0000 C CNN
+F 2 "" H 9750 4400 50  0000 C CNN
+F 3 "" H 9750 4400 50  0000 C CNN
+	1    9750 5600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	750  2400 750  2300
+Wire Wire Line
+	750  2300 950  2300
+Wire Wire Line
+	950  2300 950  2550
+Wire Wire Line
+	950  2550 1100 2550
+Wire Wire Line
+	1100 2650 950  2650
+Wire Wire Line
+	950  2650 950  2800
+Wire Wire Line
+	950  2800 750  2800
+Wire Wire Line
+	750  2800 750  2700
 $EndSCHEMATC

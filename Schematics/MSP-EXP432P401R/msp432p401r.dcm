@@ -1,0 +1,8 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP MSP432P401R
+D Low-power and high performance 32-bit ARM Cortex M4F with 256KB Flash and 64KB RAM
+F http://www.ti.com/lit/ds/symlink/msp432p401r.pdf
+$ENDCMP
+#
+#End Doc Library

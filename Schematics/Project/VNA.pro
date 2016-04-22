@@ -1,4 +1,4 @@
-update=4/20/2016 1:35:05 PM
+update=Friday, April 22, 2016 'AMt' 11:20:58 AM
 version=1
 last_client=kicad
 [pcbnew]
@@ -70,3 +70,5 @@ LibName38=/Users/aaron/Git.repositories/ENGR-357-Project/Schematics/INA148/ina14
 LibName39=/Users/aaron/Git.repositories/ENGR-357-Project/Schematics/TLV4314/tlv4314
 LibName40=/Users/aaron/Git.repositories/ENGR-357-Project/Schematics/TS3A5018/ts3a5018
 LibName41=D:/Shared/ENGR 357 Project/Schematics/MSP-EXP432P401R/msp432p401r
+LibName42=/Users/aaron/Git.repositories/ENGR-357-Project/Schematics/content/enforced/279243-ENGR357-S16/2016_VNA-cache
+LibName43=/Users/aaron/Git.repositories/ENGR-357-Project/Schematics/MSP-EXP432P401R/msp432p401r

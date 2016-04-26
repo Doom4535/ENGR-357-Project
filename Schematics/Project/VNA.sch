@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 4/25/2016 3:54:46 PM
+EESchema Schematic File Version 2  date 4/25/2016 5:06:26 PM
 LIBS:VNA-rescue
 LIBS:power
 LIBS:device
@@ -45,9 +45,76 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Connection ~ 7450 3100
 Wire Wire Line
-	7450 2825 7450 3100
+	3110 1370 3110 1665
+Wire Wire Line
+	3950 965  3950 870 
+Wire Wire Line
+	2770 870  3450 870 
+Wire Wire Line
+	840  3625 1125 3625
+Wire Wire Line
+	1125 3625 1125 3575
+Wire Wire Line
+	1125 3575 1325 3575
+Wire Wire Line
+	1165 4030 1265 4030
+Wire Wire Line
+	1265 4030 1265 3475
+Wire Wire Line
+	1265 3475 1325 3475
+Wire Wire Line
+	1140 3745 1200 3745
+Wire Wire Line
+	1200 3745 1200 3675
+Wire Wire Line
+	1200 3675 1325 3675
+Wire Wire Line
+	7250 4075 6750 4075
+Wire Wire Line
+	6750 4075 6750 2825
+Wire Wire Line
+	8700 5700 6670 5700
+Wire Wire Line
+	6670 5700 6670 4460
+Wire Wire Line
+	6670 4460 6565 4460
+Wire Wire Line
+	6565 4460 6565 3545
+Wire Wire Line
+	6565 3545 6350 3545
+Wire Wire Line
+	6350 3545 6350 2825
+Wire Wire Line
+	8700 5100 8535 5100
+Wire Wire Line
+	8535 5100 8535 4805
+Wire Wire Line
+	8535 4805 8305 4805
+Wire Wire Line
+	8305 4805 8305 3930
+Wire Wire Line
+	8305 3930 7050 3930
+Wire Wire Line
+	7050 3930 7050 2825
+Connection ~ 8135 2775
+Wire Wire Line
+	8135 2775 8365 2775
+Wire Wire Line
+	8365 2775 8365 3590
+Wire Wire Line
+	8365 3590 7850 3590
+Wire Wire Line
+	8700 3300 6450 3300
+Wire Wire Line
+	6450 3300 6450 2825
+Wire Wire Line
+	7350 3100 8200 3100
+Wire Wire Line
+	7350 3100 7350 2825
+Wire Wire Line
+	8200 3100 8200 2025
+Connection ~ 8200 2025
 Wire Wire Line
 	6850 2825 6850 3700
 Wire Wire Line
@@ -315,12 +382,6 @@ Wire Wire Line
 	6800 4275 6325 4275
 Wire Wire Line
 	6725 4375 6475 4375
-Wire Wire Line
-	3725 1525 3500 1525
-Wire Wire Line
-	3500 1175 3500 1225
-Wire Wire Line
-	3500 1900 3500 1825
 Connection ~ 7951 4874
 Wire Wire Line
 	7802 4875 7954 4875
@@ -361,7 +422,7 @@ Wire Wire Line
 Wire Wire Line
 	7850 1825 7850 1710
 Wire Wire Line
-	7880 2375 7850 2375
+	7850 2375 7880 2375
 Connection ~ 7880 2475
 Wire Wire Line
 	7850 2225 7880 2225
@@ -377,12 +438,150 @@ Wire Wire Line
 Wire Wire Line
 	8135 2475 7850 2475
 Wire Wire Line
-	7350 2825 7350 3100
+	7450 2825 7450 3025
 Wire Wire Line
-	7350 3100 8200 3100
+	7450 3025 8135 3025
+Connection ~ 8135 3025
 Wire Wire Line
-	8200 3100 8200 2025
-Connection ~ 8200 2025
+	6650 2825 6650 3590
+Wire Wire Line
+	6650 3590 7350 3590
+Wire Wire Line
+	6550 2825 6550 3185
+Wire Wire Line
+	6550 3185 8630 3185
+Wire Wire Line
+	8630 3185 8630 2700
+Wire Wire Line
+	8630 2700 8700 2700
+Wire Wire Line
+	10900 3500 11100 3500
+Wire Wire Line
+	11100 3500 11100 1985
+Wire Wire Line
+	11100 1985 10690 1985
+Wire Wire Line
+	8700 5900 6615 5900
+Wire Wire Line
+	6615 5900 6615 3875
+Wire Wire Line
+	6615 3875 6950 3875
+Wire Wire Line
+	6950 3875 6950 2820
+Wire Wire Line
+	10900 6100 11060 6100
+Wire Wire Line
+	11060 6100 11060 6730
+Wire Wire Line
+	11060 6730 10865 6730
+Wire Wire Line
+	10900 4500 11150 4500
+Wire Wire Line
+	11150 4500 11150 7010
+Wire Wire Line
+	11150 7010 10700 7010
+Wire Wire Line
+	10900 6300 10900 6590
+Wire Wire Line
+	10900 6590 10405 6590
+Wire Wire Line
+	4600 870  4695 870 
+Wire Wire Line
+	4695 870  4695 1105
+Wire Wire Line
+	3950 870  4100 870 
+$Comp
+L GND #PWR?
+U 1 1 571EAD34
+P 4695 1105
+F 0 "#PWR?" H 4695 1105 30  0001 C CNN
+F 1 "GND" H 4695 1035 30  0001 C CNN
+	1    4695 1105
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R?
+U 1 1 571EAD27
+P 4350 870
+F 0 "R?" V 4430 870 50  0000 C CNN
+F 1 "R" V 4350 870 50  0000 C CNN
+	1    4350 870 
+	0    1    1    0   
+$EndComp
+$Comp
+L C C?
+U 1 1 571EAD1D
+P 3950 1165
+F 0 "C?" H 4000 1265 50  0000 L CNN
+F 1 "C" H 4000 1065 50  0000 L CNN
+	1    3950 1165
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C?
+U 1 1 571EACCC
+P 3310 1665
+F 0 "C?" H 3360 1765 50  0000 L CNN
+F 1 "C" H 3360 1565 50  0000 L CNN
+	1    3310 1665
+	0    1    1    0   
+$EndComp
+$Comp
+L R R?
+U 1 1 571EACAA
+P 3110 1120
+F 0 "R?" V 3190 1120 50  0000 C CNN
+F 1 "R" V 3110 1120 50  0000 C CNN
+	1    3110 1120
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R?
+U 1 1 571EACA5
+P 3700 870
+F 0 "R?" V 3780 870 50  0000 C CNN
+F 1 "R" V 3700 870 50  0000 C CNN
+	1    3700 870 
+	0    1    1    0   
+$EndComp
+Text GLabel 10405 6590 0    60   Input ~ 0
+Data
+Text GLabel 840  3625 0    60   Input ~ 0
+Data
+Text GLabel 10700 7010 0    60   Input ~ 0
+GPIO
+Text GLabel 1165 4030 0    60   Input ~ 0
+GPIO
+Text GLabel 10865 6730 0    60   Input ~ 0
+SCLK
+Text GLabel 1140 3745 0    60   Input ~ 0
+SCLK
+NoConn ~ 2725 3475
+NoConn ~ 2725 3375
+NoConn ~ 2725 3275
+Text GLabel 7250 4075 2    60   Input ~ 0
+SIMO
+Text GLabel 10690 1985 0    60   Input ~ 0
+SIMO
+NoConn ~ 6250 2825
+$Comp
+L ADS131A04 U?
+U 1 1 571E49FD
+P 7850 2075
+F 0 "U?" H 8350 1925 60  0000 C CNN
+F 1 "ADS131A04" H 7910 960 60  0000 C CNN
+	1    7850 2075
+	0    1    1    0   
+$EndComp
+$Comp
+L R 100K
+U 1 1 571EA685
+P 7600 3590
+F 0 "100K" V 7680 3590 50  0000 C CNN
+F 1 "R" V 7600 3590 50  0000 C CNN
+	1    7600 3590
+	0    1    1    0   
+$EndComp
 NoConn ~ 7250 2825
 NoConn ~ 7150 2825
 $Comp
@@ -670,13 +869,13 @@ F 1 "BNC" V 4435 3115 40  0000 C CNN
 	1    4325 3175
 	1    0    0    -1  
 $EndComp
-Text GLabel 4575 2375 2    60   Input ~ 0
+Text GLabel 2960 1980 0    60   Input ~ 0
 Current
 Text GLabel 3125 3175 1    60   Input ~ 0
 Current
 Text GLabel 3275 3175 1    60   Input ~ 0
 Volt_1
-Text GLabel 4475 1775 2    60   Input ~ 0
+Text GLabel 2770 870  0    60   Input ~ 0
 Volt_1
 $Comp
 L CDCE925 U?
@@ -834,53 +1033,6 @@ F 1 "+5V" H 2175 4740 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +1V8 #PWR?
-U 1 1 57191A06
-P 3725 1525
-F 0 "#PWR?" H 3725 1375 50  0001 C CNN
-F 1 "+1V8" H 3725 1665 50  0000 C CNN
-	1    3725 1525
-	1    0    0    -1  
-$EndComp
-$Comp
-L R R?
-U 1 1 57191ADC
-P 3500 1675
-F 0 "R?" V 3580 1675 50  0000 C CNN
-F 1 "10K" V 3500 1675 50  0000 C CNN
-	1    3500 1675
-	1    0    0    -1  
-$EndComp
-$Comp
-L R R?
-U 1 1 57191B55
-P 3500 1375
-F 0 "R?" V 3580 1375 50  0000 C CNN
-F 1 "8K" V 3500 1375 50  0000 C CNN
-	1    3500 1375
-	1    0    0    -1  
-$EndComp
-$Comp
-L GND #PWR?
-U 1 1 57191C19
-P 3500 1900
-F 0 "#PWR?" H 3500 1650 50  0001 C CNN
-F 1 "GND" H 3500 1750 50  0000 C CNN
-	1    3500 1900
-	1    0    0    -1  
-$EndComp
-$Comp
-L +3V3 #PWR?
-U 1 1 57191C53
-P 3500 1175
-F 0 "#PWR?" H 3500 1025 50  0001 C CNN
-F 1 "+3V3" H 3500 1315 50  0000 C CNN
-	1    3500 1175
-	1    0    0    -1  
-$EndComp
-Text Notes 2900 975  0    60   ~ 0
-Voltage divider to get about 1V8 out, \ncould (and should) replace with a voltage regulator
-$Comp
 L EXP-_MSP432P401R_BoosterPack B?
 U 1 1 571A6CDD
 P 9800 4400
@@ -960,14 +1112,5 @@ F 0 "C?" H 6035 3745 50  0000 L CNN
 F 1 "22uF" H 6035 3595 50  0000 L CNN
 	1    6025 3675
 	1    0    0    -1  
-$EndComp
-$Comp
-L ADS131A04 U?
-U 1 1 571E49FD
-P 7850 2075
-F 0 "U?" H 8350 1925 60  0000 C CNN
-F 1 "ADS131A04" H 7910 960 60  0000 C CNN
-	1    7850 2075
-	0    1    1    0   
 $EndComp
 $EndSCHEMATC

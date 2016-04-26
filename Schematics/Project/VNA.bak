@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 4/25/2016 5:47:13 PM
+EESchema Schematic File Version 2  date 4/25/2016 5:50:37 PM
 LIBS:VNA-rescue
 LIBS:power
 LIBS:device
@@ -45,6 +45,13 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+Connection ~ 8230 4300
+Wire Wire Line
+	7875 4300 8550 4300
+Wire Wire Line
+	7875 4300 7875 4775
+Wire Wire Line
+	4825 5425 4325 5425
 Wire Wire Line
 	7800 2560 7880 2560
 Wire Wire Line
@@ -80,8 +87,6 @@ Wire Wire Line
 	6060 7260 6540 7260
 Wire Wire Line
 	6540 7260 6540 6425
-Wire Wire Line
-	8230 4300 8550 4300
 Wire Wire Line
 	8550 4300 8550 4500
 Wire Wire Line
@@ -261,11 +266,9 @@ Wire Wire Line
 	2177 4654 2177 4653
 Wire Wire Line
 	2177 4653 2078 4653
-Wire Wire Line
-	2175 4600 2175 4650
 Connection ~ 3775 5600
 Wire Wire Line
-	3775 5600 3775 5575
+	3775 5575 3775 5600
 Wire Wire Line
 	3777 5603 3777 5613
 Wire Wire Line
@@ -273,8 +276,6 @@ Wire Wire Line
 Connection ~ 3678 5610
 Wire Wire Line
 	3675 5612 3726 5612
-Wire Wire Line
-	7875 4750 7875 4775
 Wire Wire Line
 	7875 4775 7800 4775
 Connection ~ 1225 4850
@@ -647,6 +648,34 @@ Wire Wire Line
 	8430 2025 7850 2025
 Connection ~ 8285 2025
 Connection ~ 8200 2845
+Wire Wire Line
+	2360 4675 2175 4675
+Wire Wire Line
+	2175 4675 2175 4600
+Connection ~ 2175 4655
+Connection ~ 2360 4275
+Wire Wire Line
+	3925 5425 3925 5600
+Wire Wire Line
+	3925 5600 3775 5600
+$Comp
+L C C?
+U 1 1 571EBB05
+P 4125 5425
+F 0 "C?" H 4175 5525 50  0000 L CNN
+F 1 "C" H 4175 5325 50  0000 L CNN
+	1    4125 5425
+	0    1    1    0   
+$EndComp
+$Comp
+L C C?
+U 1 1 571EBADD
+P 2360 4475
+F 0 "C?" H 2410 4575 50  0000 L CNN
+F 1 "C" H 2410 4375 50  0000 L CNN
+	1    2360 4475
+	1    0    0    -1  
+$EndComp
 $Comp
 L C C?
 U 1 1 571EBA00
@@ -1410,15 +1439,6 @@ P 1225 4875
 F 0 "#PWR?" H 1225 4625 50  0001 C CNN
 F 1 "GND" H 1225 4725 50  0000 C CNN
 	1    1225 4875
-	1    0    0    -1  
-$EndComp
-$Comp
-L +5V #PWR?
-U 1 1 5718A92E
-P 7875 4750
-F 0 "#PWR?" H 7875 4600 50  0001 C CNN
-F 1 "+5V" H 7875 4890 50  0000 C CNN
-	1    7875 4750
 	1    0    0    -1  
 $EndComp
 $Comp

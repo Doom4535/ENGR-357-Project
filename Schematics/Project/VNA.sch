@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 4/25/2016 5:34:14 PM
+EESchema Schematic File Version 2  date 4/25/2016 5:47:24 PM
 LIBS:VNA-rescue
 LIBS:power
 LIBS:device
@@ -45,11 +45,24 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+Wire Wire Line
+	7800 2560 7880 2560
+Wire Wire Line
+	7800 2560 7800 2845
+Wire Wire Line
+	8430 1625 8315 1625
+Wire Wire Line
+	8315 1625 8315 1720
+Wire Wire Line
+	8315 1720 7845 1720
+Connection ~ 800  1550
+Wire Wire Line
+	635  1550 800  1550
 Connection ~ 1925 2785
 Wire Wire Line
 	1775 2785 1925 2785
 Wire Wire Line
-	1775 2150 1775 2785
+	1775 2785 1775 2150
 Wire Wire Line
 	1775 2150 2560 2150
 Wire Wire Line
@@ -211,9 +224,7 @@ Wire Wire Line
 	2325 2445 2325 2325
 Connection ~ 800  1920
 Wire Wire Line
-	800  1920 2050 1920
-Wire Wire Line
-	2050 1920 2050 1800
+	2050 1800 2050 1920
 Connection ~ 800  1600
 Wire Wire Line
 	800  1400 800  1700
@@ -490,8 +501,6 @@ Wire Wire Line
 	5495 1825 5750 1825
 Connection ~ 5495 2425
 Wire Wire Line
-	7850 2025 8285 2025
-Wire Wire Line
 	8285 2025 8285 2110
 Wire Wire Line
 	5750 1825 5750 2175
@@ -616,6 +625,82 @@ Wire Wire Line
 Wire Wire Line
 	1925 2325 2325 2325
 Connection ~ 2025 2325
+Wire Wire Line
+	2825 5510 2780 5510
+Wire Wire Line
+	2780 5510 2780 5530
+Wire Wire Line
+	1190 4575 1190 4555
+Wire Wire Line
+	1190 4555 1235 4555
+Wire Wire Line
+	6955 4675 6910 4675
+Wire Wire Line
+	6910 4675 6910 4695
+Wire Wire Line
+	635  1950 750  1950
+Wire Wire Line
+	750  1950 750  1920
+Wire Wire Line
+	750  1920 2050 1920
+Wire Wire Line
+	8430 2025 7850 2025
+Connection ~ 8285 2025
+Connection ~ 8200 2845
+$Comp
+L C C?
+U 1 1 571EBA00
+P 8000 2845
+F 0 "C?" H 8050 2945 50  0000 L CNN
+F 1 "C" H 8050 2745 50  0000 L CNN
+	1    8000 2845
+	0    1    1    0   
+$EndComp
+$Comp
+L C C?
+U 1 1 571EB982
+P 8430 1825
+F 0 "C?" H 8480 1925 50  0000 L CNN
+F 1 "C" H 8480 1725 50  0000 L CNN
+	1    8430 1825
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C?
+U 1 1 571EB8D4
+P 635 1750
+F 0 "C?" H 685 1850 50  0000 L CNN
+F 1 "C" H 685 1650 50  0000 L CNN
+	1    635  1750
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 571EB8BE
+P 6910 4695
+F 0 "#PWR?" H 6910 4695 30  0001 C CNN
+F 1 "GND" H 6910 4625 30  0001 C CNN
+	1    6910 4695
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 571EB8B0
+P 1190 4575
+F 0 "#PWR?" H 1190 4575 30  0001 C CNN
+F 1 "GND" H 1190 4505 30  0001 C CNN
+	1    1190 4575
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 571EB8A1
+P 2780 5530
+F 0 "#PWR?" H 2780 5530 30  0001 C CNN
+F 1 "GND" H 2780 5460 30  0001 C CNN
+	1    2780 5530
+	1    0    0    -1  
+$EndComp
 $Comp
 L C C?
 U 1 1 571EB74E
@@ -1049,7 +1134,7 @@ L R-RESCUE-VNA R?
 U 1 1 571569CA
 P 2539 4753
 F 0 "R?" V 2619 4753 50  0000 C CNN
-F 1 "R" V 2539 4753 50  0000 C CNN
+F 1 "33" V 2539 4753 50  0000 C CNN
 	1    2539 4753
 	0    -1   -1   0   
 $EndComp
@@ -1058,7 +1143,7 @@ L C-RESCUE-VNA C?
 U 1 1 571569C9
 P 2289 4953
 F 0 "C?" H 2339 5053 50  0000 L CNN
-F 1 "C" H 2339 4853 50  0000 L CNN
+F 1 "470nF" H 2339 4853 50  0000 L CNN
 	1    2289 4953
 	1    0    0    -1  
 $EndComp
@@ -1085,7 +1170,7 @@ L C-RESCUE-VNA C?
 U 1 1 5715691D
 P 3887 5911
 F 0 "C?" H 3937 6011 50  0000 L CNN
-F 1 "C" H 3937 5811 50  0000 L CNN
+F 1 "470nF" H 3937 5811 50  0000 L CNN
 	1    3887 5911
 	1    0    0    -1  
 $EndComp
@@ -1094,7 +1179,7 @@ L R-RESCUE-VNA R?
 U 1 1 571568DD
 P 4137 5711
 F 0 "R?" V 4217 5711 50  0000 C CNN
-F 1 "R" V 4137 5711 50  0000 C CNN
+F 1 "33" V 4137 5711 50  0000 C CNN
 	1    4137 5711
 	0    -1   -1   0   
 $EndComp
@@ -1260,7 +1345,7 @@ L R R?
 U 1 1 57183A67
 P 8250 4875
 F 0 "R?" V 8330 4875 50  0000 C CNN
-F 1 "R" V 8250 4875 50  0000 C CNN
+F 1 "33" V 8250 4875 50  0000 C CNN
 	1    8250 4875
 	0    1    1    0   
 $EndComp
@@ -1269,7 +1354,7 @@ L C C?
 U 1 1 57183B04
 P 7950 5075
 F 0 "C?" H 7975 5175 50  0000 L CNN
-F 1 "C" H 7975 4975 50  0000 L CNN
+F 1 "470nF" H 7975 4975 50  0000 L CNN
 	1    7950 5075
 	1    0    0    -1  
 $EndComp

@@ -2,7 +2,7 @@ EESchema-DOCLIB  Version 2.0
 #
 $CMP ADS131A04
 D 4 Channel Simultaneous Sampling 24bit 128kSPS ADC
-F http://www.ti.com/lit/ds/symlink/ads131e04.pdf
+F http://www.ti.com/lit/ds/symlink/ads131a04.pdf
 $ENDCMP
 #
 $CMP LM3S6911-EQC50

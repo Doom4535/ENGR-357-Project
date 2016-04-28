@@ -1,4 +1,4 @@
-update=4/26/2016 11:13:41 PM
+update=4/27/2016 9:08:39 PM
 version=1
 last_client=kicad
 [pcbnew]
@@ -72,3 +72,13 @@ LibName40=/Users/aaron/Git.repositories/ENGR-357-Project/Schematics/TS3A5018/ts3
 LibName41=D:/Shared/ENGR 357 Project/Schematics/MSP-EXP432P401R/msp432p401r
 LibName42=/Users/aaron/Git.repositories/ENGR-357-Project/Schematics/content/enforced/279243-ENGR357-S16/2016_VNA-cache
 LibName43=/Users/aaron/Git.repositories/ENGR-357-Project/Schematics/MSP-EXP432P401R/msp432p401r
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=../../PDFs/
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=
+SpiceForceRefPrefix=0
+SpiceUseNetNumbers=0
+LabSize=60

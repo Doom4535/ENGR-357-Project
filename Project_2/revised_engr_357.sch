@@ -1,4 +1,5 @@
 EESchema Schematic File Version 2
+LIBS:revised_engr_357-rescue
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -28,14 +29,6 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
-LIBS:ads131a04
-LIBS:tps736
-LIBS:msp432p401r
-LIBS:tlv4314
-LIBS:cdce925
-LIBS:crystal-IDT-603-25-150
-LIBS:ina148
-LIBS:ts3a5018
 LIBS:revised_engr_357-cache
 EELAYER 25 0
 EELAYER END
@@ -1123,7 +1116,7 @@ ADC2_Mag
 Text GLabel 6125 7350 2    60   Input ~ 0
 ADC3_Port_2
 $Comp
-L ADS131A04 U9
+L ADS131A04-RESCUE-revised_engr_357 U9
 U 1 1 57246611
 P 7025 1300
 F 0 "U9" H 7300 150 60  0000 C CNN

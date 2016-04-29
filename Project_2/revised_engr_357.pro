@@ -1,4 +1,4 @@
-update=4/27/2016 9:31:25 PM
+update=Thursday, April 28, 2016 'PMt' 10:42:41 PM
 version=1
 last_client=kicad
 [pcbnew]
@@ -66,3 +66,21 @@ LibName34=D:/Shared/ENGR 357 Project/Schematics/Crystall_type_unverified/crystal
 LibName35=D:/Shared/ENGR 357 Project/Schematics/CDCE925/cdce925
 LibName36=D:/Shared/ENGR 357 Project/Schematics/TPS736/tps736
 LibName37=D:/Shared/ENGR 357 Project/Schematics/ADS131A04/ads131a04
+LibName38=/Users/aaron/Git.repositories/ENGR-357-Project/Schematics/ADS131A04/ads131a04
+LibName39=/Users/aaron/Git.repositories/ENGR-357-Project/Schematics/TPS736/tps736
+LibName40=/Users/aaron/Git.repositories/ENGR-357-Project/Schematics/MSP-EXP432P401R/msp432p401r
+LibName41=/Users/aaron/Git.repositories/ENGR-357-Project/Schematics/TLV4314/tlv4314
+LibName42=/Users/aaron/Git.repositories/ENGR-357-Project/Schematics/CDCE925/cdce925
+LibName43=/Users/aaron/Git.repositories/ENGR-357-Project/Schematics/Crystall_type_unverified/crystal-IDT-603-25-150
+LibName44=/Users/aaron/Git.repositories/ENGR-357-Project/Schematics/INA148/ina148
+LibName45=/Users/aaron/Git.repositories/ENGR-357-Project/Schematics/TS3A5018/ts3a5018
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=../PDFs/
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=
+SpiceForceRefPrefix=0
+SpiceUseNetNumbers=0
+LabSize=60

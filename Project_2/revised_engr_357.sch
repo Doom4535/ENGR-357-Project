@@ -2219,19 +2219,6 @@ F 3 "" H 3875 7150 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	2775 8825 2725 8825
-$Comp
-L GND #PWR?
-U 1 1 5726EC4D
-P 2725 8825
-F 0 "#PWR?" H 2725 8575 50  0001 C CNN
-F 1 "GND" H 2725 8675 50  0000 C CNN
-F 2 "" H 2725 8825 50  0000 C CNN
-F 3 "" H 2725 8825 50  0000 C CNN
-	1    2725 8825
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
 	4150 7525 4250 7525
 Text GLabel 4250 7525 2    60   Input ~ 0
 1V65

@@ -67,6 +67,7 @@ LibName35=../Schematics/CDCE925/cdce925
 LibName36=../Schematics/Crystall_type_unverified/crystal-IDT-603-25-150
 LibName37=../Schematics/INA148/ina148
 LibName38=../Schematics/TS3A5018/ts3a5018
+LibName39=../Schematics/SA612A/SA612A
 [schematic_editor]
 version=1
 PageLayoutDescrFile=

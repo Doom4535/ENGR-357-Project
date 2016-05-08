@@ -1,4 +1,4 @@
-update=5/4/2016 12:30:29 AM
+update=Sunday, May 08, 2016 'AMt' 12:14:50 AM
 version=1
 last_client=kicad
 [pcbnew]
@@ -25,6 +25,16 @@ version=1
 NetIExt=net
 [general]
 version=1
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=../PDFs/
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=
+SpiceForceRefPrefix=0
+SpiceUseNetNumbers=0
+LabSize=60
 [eeschema]
 version=1
 LibDir=../Schematics
@@ -68,13 +78,3 @@ LibName36=../Schematics/Crystall_type_unverified/crystal-IDT-603-25-150
 LibName37=../Schematics/INA148/ina148
 LibName38=../Schematics/TS3A5018/ts3a5018
 LibName39=../Schematics/SA612A/SA612A
-[schematic_editor]
-version=1
-PageLayoutDescrFile=
-PlotDirectoryName=../PDFs/
-SubpartIdSeparator=0
-SubpartFirstId=65
-NetFmtName=
-SpiceForceRefPrefix=0
-SpiceUseNetNumbers=0
-LabSize=60

@@ -1,8 +1,21 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP ADS131A04
+D 4-Channel Analog Front-End for Power Monitoring, Control, and Protection
+F http://www.ti.com/lit/ds/symlink/ads131a04.pdf
+$ENDCMP
+#
+$CMP EXP-_MSP432P401R_BoosterPack
+F http://www.ti.com/lit/ml/slau596/slau596.pdf
+$ENDCMP
+#
 $CMP TLV4314
-D TLVx314 3-MHz, Low-Power, Low-Noise, RRIO, CMOS Operational Amplifiers
+D 4 Op amp package, 3-MHz, Low-Power, Internal EMI Filter, RRIO, Operational Amplifier
 F http://www.ti.com/lit/ds/symlink/tlv4314.pdf
+$ENDCMP
+#
+$CMP TPS736
+F http://www.ti.com/lit/ds/symlink/tps736.pdf
 $ENDCMP
 #
 #End Doc Library

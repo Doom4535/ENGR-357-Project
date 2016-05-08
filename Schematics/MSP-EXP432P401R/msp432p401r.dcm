@@ -1,6 +1,7 @@
 EESchema-DOCLIB  Version 2.0
 #
-$CMP EXP-_MSP432P401R_BoosterPack
+$CMP EXP-_MSP432P401R_BoosterPack-RESCUE-revised_engr_357
+D MSP432P401R LaunchPad Development Kit (MSP-EXP432P401R) User's Guide (Rev. A)
 F http://www.ti.com/lit/ml/slau596/slau596.pdf
 $ENDCMP
 #

@@ -21,14 +21,19 @@
       )
     )
     (boundary
-      (rect pcb 73868 -111201 141414 -186717)
+      (path pcb 0  89916 -185420  89916 -135128  139192 -135128  139192 -185420
+            89916 -185420  89916 -185420)
     )
-    (via "Via[0-1]_600:400_um")
+    (plane GND (polygon F.Cu 0  138938 -185166  90170 -185166  90170 -135382  138938 -135382
+            138938 -185166))
+    (plane GND (polygon B.Cu 0  138938 -185166  90170 -185166  90170 -135382  138938 -135382
+            138938 -185166))
+    (via "Via[0-1]_622.3:317.5_um")
     (rule
-      (width 250)
-      (clearance 200.1)
-      (clearance 200.1 (type default_smd))
-      (clearance 50 (type smd_smd))
+      (width 279.4)
+      (clearance 202.03)
+      (clearance 202.03 (type default_smd))
+      (clearance 50.4825 (type smd_smd))
     )
   )
   (placement
@@ -106,8 +111,8 @@
     )
     (component "SMD_Packages:DIP-8_SMD"
       (place U2 121412 -151130 front 0 (PN SA612A))
-      (place U3 95758 -151638 front 0 (PN SA612A))
-      (place U4 98298 -139954 front 0 (PN SA612A))
+      (place U3 96774 -152146 front 0 (PN SA612A))
+      (place U4 98298 -140970 front 0 (PN SA612A))
     )
     (component "Housings_SSOP:TSSOP-16_4.4x5mm_Pitch0.65mm"
       (place U5 113382 -175413 front 0 (PN CDCE925))
@@ -120,6 +125,18 @@
     )
     (component Crystals:Crystal_SMD_2520_4Pads
       (place Y1 113284 -167894 front 0 (PN Crystal))
+    )
+    (component "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small"
+      (place P3 100076 -161544 front 0 (PN CONN_01X01))
+      (place P4 100076 -180848 front 0 (PN CONN_01X01))
+      (place P5 100076 -167132 front 0 (PN CONN_01X01))
+      (place P6 120904 -161544 front 0 (PN CONN_01X01))
+      (place P7 128016 -161544 front 0 (PN CONN_01X01))
+      (place P8 106934 -161544 front 0 (PN CONN_01X01))
+      (place P9 121158 -167640 front 0 (PN CONN_01X01))
+      (place P10 128016 -167386 front 0 (PN CONN_01X01))
+      (place P11 125476 -181102 front 0 (PN CONN_01X01))
+      (place P12 113792 -161544 front 0 (PN CONN_01X01))
     )
   )
   (library
@@ -404,6 +421,18 @@
       (pin Rect[T]Pad_1000x900_um 2 925 775)
       (pin Rect[T]Pad_1000x900_um 3@1 -925 775)
     )
+    (image "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small"
+      (outline (path signal 50  1000 0  951.057 -309.017  809.017 -587.785  587.785 -809.017
+            309.017 -951.057  0 -1000  -309.017 -951.057  -587.785 -809.017
+            -809.017 -587.785  -951.057 -309.017  -1000 0  -951.057 309.017
+            -809.017 587.785  -587.785 809.017  -309.017 951.057  0 1000
+            309.017 951.057  587.785 809.017  809.017 587.785  951.057 309.017))
+      (pin Round[T]Pad_1500_um 1 0 0)
+    )
+    (padstack Round[T]Pad_1500_um
+      (shape (circle F.Cu 1500))
+      (attach off)
+    )
     (padstack Round[A]Pad_1600.2_um
       (shape (circle F.Cu 1600.2))
       (shape (circle B.Cu 1600.2))
@@ -456,20 +485,20 @@
       (shape (rect B.Cu -863.6 -863.6 863.6 863.6))
       (attach off)
     )
-    (padstack "Via[0-1]_600:400_um"
-      (shape (circle F.Cu 600))
-      (shape (circle B.Cu 600))
+    (padstack "Via[0-1]_622.3:317.5_um"
+      (shape (circle F.Cu 622.3))
+      (shape (circle B.Cu 622.3))
       (attach off)
     )
   )
   (network
     (net +3V3
       (pins B1-3.3V C8-2 C9-2 C14-1 C15-1 C24-1 C26-1 C27-1 R16-2 R28-2 R29-1 R31-2
-        U5-6 U5-9 U7-15 U7-16 U7-29 U7-30)
+        U5-6 U5-9 U7-15 U7-16 U7-29 U7-30 P8-1)
     )
     (net +5V
       (pins B1-5V C1-1 C10-2 C11-2 C12-2 C13-1 C22-1 U1-1 U1-3 U2-8 U3-8 U4-8 U6-4
-        U7-9)
+        U7-9 P9-1)
     )
     (net "Net-(B1-PadP6.0)"
       (pins B1-P6.0 U7-19)
@@ -479,7 +508,7 @@
         C12-1 C13-2 C14-2 C15-2 C16-2 C17-2 C18-2 C19-2 C20-2 C21-1 C22-2 C23-1 C24-2
         C25-1 C26-2 C27-2 P1-2 P1-2@1 P1-2@2 P2-2 P2-2@1 P2-2@2 R11-2 R17-2 R19-2
         U1-2 U2-3 U3-3 U4-3 U5-5 U5-12 U6-3 U6-10 U6-11 U6-12 U7-1 U7-3 U7-5 U7-10
-        U7-11 U7-13 U7-27 U7-31)
+        U7-11 U7-13 U7-27 U7-31 P6-1)
     )
     (net "Net-(B1-PadP3.2)"
       (pins B1-P3.2)
@@ -593,7 +622,7 @@
       (pins R7-1 R9-1 U2-6 U3-6 U4-6)
     )
     (net 1V65
-      (pins C16-1 C18-1 R13-2 R25-2 R26-2 U6-6 U6-7)
+      (pins C16-1 C18-1 R13-2 R25-2 R26-2 U6-6 U6-7 P11-1)
     )
     (net ADC1_Reflect
       (pins C17-1 R18-2 U7-2)
@@ -605,10 +634,10 @@
       (pins C20-1 R23-2 U7-6)
     )
     (net Mag_Probe
-      (pins P1-1 R12-2 U3-1 U4-1)
+      (pins P1-1 R12-2 U3-1 U4-1 P4-1)
     )
     (net Port_2
-      (pins P2-1 R19-1 U2-1)
+      (pins P2-1 R19-1 U2-1 P5-1)
     )
     (net "Net-(R1-Pad2)"
       (pins R1-2 U3-4)
@@ -620,19 +649,19 @@
       (pins R3-2 U4-4)
     )
     (net Port_1
-      (pins R6-1 R8-2 R10-1 R12-1)
+      (pins R6-1 R8-2 R10-1 R12-1 P3-1)
     )
     (net "Reflect_-"
       (pins R10-2 R11-1 U4-2)
     )
     (net Reflect_Probe
-      (pins C4-1 R3-1 R14-2)
+      (pins C4-1 R3-1 R14-2 P12-1)
     )
     (net Port_2_Mix
-      (pins C3-1 R2-1 R24-2)
+      (pins C3-1 R2-1 R24-2 P10-1)
     )
     (net Mag_Probe_1
-      (pins C2-1 R1-1 R27-2)
+      (pins C2-1 R1-1 R27-2 P7-1)
     )
     (net "Net-(U2-Pad2)"
       (pins U2-2)
@@ -759,11 +788,20 @@
       "Net-(U7-Pad8)" Port_1 Port_2 Port_2_Mix "Reflect_-" Reflect_Probe SCL
       SIMO SOMI
       (circuit
-        (use_via Via[0-1]_600:400_um)
+        (use_via Via[0-1]_622.3:317.5_um)
       )
       (rule
-        (width 250)
-        (clearance 200.1)
+        (width 279.4)
+        (clearance 202.03)
+      )
+    )
+    (class ENGR_357
+      (circuit
+        (use_via Via[0-1]_622.3:317.5_um)
+      )
+      (rule
+        (width 279.4)
+        (clearance 202.03)
       )
     )
   )

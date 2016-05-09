@@ -1,4 +1,5 @@
 EESchema Schematic File Version 2
+LIBS:revised_engr_357-rescue
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -37,6 +38,7 @@ LIBS:crystal-IDT-603-25-150
 LIBS:ina148
 LIBS:ts3a5018
 LIBS:SA612A
+LIBS:revised_engr_357-cache
 EELAYER 25 0
 EELAYER END
 $Descr A3 16535 11693
@@ -1826,7 +1828,7 @@ Wire Wire Line
 Wire Wire Line
 	3950 4500 4325 4500
 Wire Wire Line
-	3650 4500 3375 4500
+	3375 4500 3650 4500
 Wire Wire Line
 	3625 4800 3950 4800
 Wire Wire Line
@@ -1958,7 +1960,7 @@ $EndComp
 Wire Wire Line
 	12125 1650 12125 1725
 $Comp
-L CDCE925 U5
+L CDCE925-RESCUE-revised_engr_357 U5
 U 1 1 57301ECE
 P 2925 3800
 F 0 "U5" H 3225 3650 60  0000 C CNN

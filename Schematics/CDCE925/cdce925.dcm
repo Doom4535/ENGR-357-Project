@@ -1,22 +1,8 @@
 EESchema-DOCLIB  Version 2.0
 #
-$CMP ADS131A04
-D 4-Channel Analog Front-End for Power Monitoring, Control, and Protection
-F http://www.ti.com/lit/ds/symlink/ads131a04.pdf
-$ENDCMP
-#
-$CMP EXP-_MSP432P401R_BoosterPack
-F http://www.ti.com/lit/ml/slau596/slau596.pdf
-$ENDCMP
-#
-$CMP TLV4314
-D 4 Op amp package, 3-MHz, Low-Power, Internal EMI Filter, RRIO, Operational Amplifier
-F http://www.ti.com/lit/ds/symlink/tlv4314.pdf
-$ENDCMP
-#
-$CMP TPS736
-D Single Output LDO, 400mA, Adj.(1.2 to 5.5V), Cap free, Low Noise, Reverse Current Protection
-F http://www.ti.com/lit/ds/symlink/tps736.pdf
+$CMP CDCE925
+D Programmable 2-PLL VCXO Clock Synthesizer with 2.5-V or 3.3-V LVCMOS Outputs
+F http://www.ti.com/lit/ds/symlink/cdce925.pdf
 $ENDCMP
 #
 #End Doc Library

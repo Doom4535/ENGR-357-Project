@@ -1,4 +1,5 @@
 (fp_lib_table
   (lib (name Housings_SSOP)(type KiCad)(uri /Users/aaron/Git.repositories/ENGR-357-Project/Schematics/Footprints/Housings_SSOP.pretty)(options "")(descr ""))
   (lib (name Footprints)(type KiCad)(uri /Users/aaron/Git.repositories/ENGR-357-Project/Schematics/Footprints.pretty)(options "")(descr ""))
+  (lib (name Footprints_extra)(type KiCad)(uri /Users/aaron/Git.repositories/ENGR-357-Project/Schematics/Footprints)(options "")(descr ""))
 )

@@ -1,4 +1,4 @@
-(pcb "D:\Shared\ENGR 357 Project\Project_2\revised_engr_357.dsn"
+(pcb "/Users/aaron/Git.repositories/ENGR-357-Project/Project_2/revised_engr_357.dsn"
   (parser
     (string_quote ")
     (space_in_quoted_tokens on)
@@ -21,19 +21,15 @@
       )
     )
     (boundary
-      (path pcb 0  89916 -185420  89916 -135128  139192 -135128  139192 -185420
-            89916 -185420  89916 -185420)
+      (path pcb 0  89916 -135890  89916 -185420  139192 -185420  139192 -135890
+            89916 -135890  89916 -135890)
     )
-    (plane GND (polygon F.Cu 0  138938 -185166  90170 -185166  90170 -135382  138938 -135382
-            138938 -185166))
-    (plane GND (polygon B.Cu 0  138938 -185166  90170 -185166  90170 -135382  138938 -135382
-            138938 -185166))
-    (via "Via[0-1]_622.3:317.5_um")
+    (via "Via[0-1]_600:304.8_um")
     (rule
-      (width 279.4)
-      (clearance 202.03)
-      (clearance 202.03 (type default_smd))
-      (clearance 50.4825 (type smd_smd))
+      (width 250)
+      (clearance 200.1)
+      (clearance 200.1 (type default_smd))
+      (clearance 50 (type smd_smd))
     )
   )
   (placement
@@ -61,7 +57,7 @@
       (place C18 131064 -170926 back 90 (PN 0.01uF))
       (place C19 113649 -161671 back 0 (PN 470nF))
       (place C20 131048 -166878 back 0 (PN 470nF))
-      (place C21 117094 -144272 back 0 (PN 1uF))
+      (place C21 117094 -146050 back 0 (PN 1uF))
       (place C22 109331 -159258 back 180 (PN 1uF))
       (place C23 103521 -159639 back 180 (PN 1uF))
       (place C24 98044 -167640 back 90 (PN 1uF))
@@ -70,30 +66,30 @@
       (place C27 130318 -183642 back 0 (PN 0.1uF))
     )
     (component "Sockets_BNC:BNC_Socket_TYCO-AMP"
-      (place P1 112268 -138176 front 0 (PN BNC))
-      (place P2 129540 -138176 front 0 (PN BNC))
+      (place P1 112268 -138963 front 0 (PN BNC))
+      (place P2 129540 -138963 front 0 (PN BNC))
     )
     (component Resistors_SMD:R_0805
       (place R1 103378 -153350 back 90 (PN 33))
       (place R2 126492 -158750 back 0 (PN 33))
-      (place R3 102616 -139192 back 90 (PN 33))
+      (place R3 102870 -142240 back 90 (PN 33))
       (place R4 104140 -182118 back 180 (PN R))
       (place R5 120396 -182118 back 180 (PN R))
       (place R6 109220 -183134 back 270 (PN R))
       (place R7 115570 -183134 back 270 (PN R))
       (place R8 99314 -183134 back 90 (PN R))
       (place R9 125730 -182880 back 270 (PN R))
-      (place R10 91948 -138938 back 180 (PN 50))
+      (place R10 91948 -139700 back 180 (PN 50))
       (place R11 95758 -139700 back 180 (PN 50))
-      (place R12 91694 -143002 back 90 (PN 50))
+      (place R12 92710 -146050 back 90 (PN 50))
       (place R13 131064 -158750 back 0 (PN R))
-      (place R14 106426 -144272 back 0 (PN R))
+      (place R14 106426 -146050 back 0 (PN R))
       (place R15 132842 -151638 back 90 (PN R))
       (place R16 129286 -176530 back 90 (PN 100K))
       (place R17 127066 -171958 back 0 (PN 100K))
       (place R18 134366 -148336 back 180 (PN 33))
       (place R19 130302 -139446 back 180 (PN 50))
-      (place R20 137922 -156530 back 270 (PN R))
+      (place R20 137922 -156210 back 270 (PN R))
       (place R21 118176 -159385 back 0 (PN 33))
       (place R22 118110 -163510 back 90 (PN R))
       (place R23 134554 -157226 back 0 (PN 33))
@@ -109,19 +105,14 @@
     (component "TO_SOT_Packages_SMD:SOT-23-5"
       (place U1 102108 -175702 front 0 (PN TPS736))
     )
-    (component "SMD_Packages:DIP-8_SMD"
-      (place U2 121412 -151130 front 0 (PN SA612A))
-      (place U3 96774 -152146 front 0 (PN SA612A))
-      (place U4 98298 -140970 front 0 (PN SA612A))
-    )
     (component "Housings_SSOP:TSSOP-16_4.4x5mm_Pitch0.65mm"
       (place U5 113382 -175413 front 0 (PN CDCE925))
     )
     (component "Housings_SSOP:TSSOP-14_4.4x5mm_Pitch0.65mm"
-      (place U6 132998 -152624 front 0 (PN TLV4314))
+      (place U6 132080 -152624 front 0 (PN TLV4314))
     )
     (component "Housings_QFP:LQFP-32_5x5mm_Pitch0.5mm"
-      (place U7 108966 -150622 front 0 (PN ADS131A04))
+      (place U7 108966 -152400 front 0 (PN ADS131A04))
     )
     (component Crystals:Crystal_SMD_2520_4Pads
       (place Y1 113284 -167894 front 0 (PN Crystal))
@@ -137,6 +128,11 @@
       (place P10 128016 -167386 front 0 (PN CONN_01X01))
       (place P11 125476 -181102 front 0 (PN CONN_01X01))
       (place P12 113792 -161544 front 0 (PN CONN_01X01))
+    )
+    (component "Footprints_extra:SO-8"
+      (place U2 121412 -151130 front 0 (PN SA612A))
+      (place U3 96774 -152146 front 0 (PN SA612A))
+      (place U4 98298 -140970 front 0 (PN SA612A))
     )
   )
   (library
@@ -286,23 +282,6 @@
       (pin Rect[T]Pad_1060x650_um 4 1100 -950)
       (pin Rect[T]Pad_1060x650_um 5 1100 950)
     )
-    (image "SMD_Packages:DIP-8_SMD"
-      (outline (path signal 150  -5080 2540  -5080 -2540))
-      (outline (path signal 150  -5080 -2540  5080 -2540))
-      (outline (path signal 150  5080 -2540  5080 2540))
-      (outline (path signal 150  5080 2540  -5080 2540))
-      (outline (path signal 150  -5080 1270  -3810 1270))
-      (outline (path signal 150  -3810 1270  -3810 -1270))
-      (outline (path signal 150  -3810 -1270  -5080 -1270))
-      (pin Rect[T]Pad_1524x2032_um 1 -3810 -3810)
-      (pin Rect[T]Pad_1524x2032_um 2 -1270 -3810)
-      (pin Rect[T]Pad_1524x2032_um 3 1270 -3810)
-      (pin Rect[T]Pad_1524x2032_um 4 3810 -3810)
-      (pin Rect[T]Pad_1524x2032_um 5 3810 3810)
-      (pin Rect[T]Pad_1524x2032_um 6 1270 3810)
-      (pin Rect[T]Pad_1524x2032_um 7 -1270 3810)
-      (pin Rect[T]Pad_1524x2032_um 8 -3810 3810)
-    )
     (image "Housings_SSOP:TSSOP-16_4.4x5mm_Pitch0.65mm"
       (outline (path signal 50  -3950 2800  -3950 -2800))
       (outline (path signal 50  3950 2800  3950 -2800))
@@ -429,6 +408,19 @@
             309.017 951.057  587.785 809.017  809.017 587.785  951.057 309.017))
       (pin Round[T]Pad_1500_um 1 0 0)
     )
+    (image "Footprints_extra:SO-8"
+      (outline (path signal 299.72  2448.56 1617.98  2448.56 -1617.98))
+      (outline (path signal 299.72  -2448.56 1617.98  -2448.56 -1617.98))
+      (outline (path signal 299.72  -2448.56 -1049.02  -1879.6 -1617.98))
+      (pin Rect[T]Pad_797.56x2199.64_um (rotate 180) 1 -1902.46 -2867.66)
+      (pin Rect[T]Pad_797.56x2199.64_um (rotate 180) 2 -632.46 -2867.66)
+      (pin Rect[T]Pad_797.56x2199.64_um (rotate 180) 3 632.46 -2867.66)
+      (pin Rect[T]Pad_797.56x2199.64_um (rotate 180) 4 1902.46 -2867.66)
+      (pin Rect[T]Pad_797.56x2199.64_um 5 1902.46 2867.66)
+      (pin Rect[T]Pad_797.56x2199.64_um 6 632.46 2867.66)
+      (pin Rect[T]Pad_797.56x2199.64_um 7 -632.46 2867.66)
+      (pin Rect[T]Pad_797.56x2199.64_um 8 -1902.46 2867.66)
+    )
     (padstack Round[T]Pad_1500_um
       (shape (circle F.Cu 1500))
       (attach off)
@@ -450,6 +442,10 @@
     )
     (padstack Rect[T]Pad_700x1300_um
       (shape (rect F.Cu -350 -650 350 650))
+      (attach off)
+    )
+    (padstack Rect[T]Pad_797.56x2199.64_um
+      (shape (rect F.Cu -398.78 -1099.82 398.78 1099.82))
       (attach off)
     )
     (padstack Rect[T]Pad_1000x900_um
@@ -476,18 +472,14 @@
       (shape (rect F.Cu -750 -225 750 225))
       (attach off)
     )
-    (padstack Rect[T]Pad_1524x2032_um
-      (shape (rect F.Cu -762 -1016 762 1016))
-      (attach off)
-    )
     (padstack Rect[A]Pad_1727.2x1727.2_um
       (shape (rect F.Cu -863.6 -863.6 863.6 863.6))
       (shape (rect B.Cu -863.6 -863.6 863.6 863.6))
       (attach off)
     )
-    (padstack "Via[0-1]_622.3:317.5_um"
-      (shape (circle F.Cu 622.3))
-      (shape (circle B.Cu 622.3))
+    (padstack "Via[0-1]_600:304.8_um"
+      (shape (circle F.Cu 600))
+      (shape (circle B.Cu 600))
       (attach off)
     )
   )
@@ -497,8 +489,8 @@
         U5-6 U5-9 U7-15 U7-16 U7-29 U7-30 P8-1)
     )
     (net +5V
-      (pins B1-5V C1-1 C10-2 C11-2 C12-2 C13-1 C22-1 U1-1 U1-3 U2-8 U3-8 U4-8 U6-4
-        U7-9 P9-1)
+      (pins B1-5V C1-1 C10-2 C11-2 C12-2 C13-1 C22-1 U1-1 U1-3 U6-4 U7-9 P9-1 U2-8
+        U3-8 U4-8)
     )
     (net "Net-(B1-PadP6.0)"
       (pins B1-P6.0 U7-19)
@@ -507,8 +499,8 @@
       (pins B1-GND1 B1-GND C1-2 C2-2 C3-2 C4-2 C5-1 C6-1 C7-2 C8-1 C9-1 C10-1 C11-1
         C12-1 C13-2 C14-2 C15-2 C16-2 C17-2 C18-2 C19-2 C20-2 C21-1 C22-2 C23-1 C24-2
         C25-1 C26-2 C27-2 P1-2 P1-2@1 P1-2@2 P2-2 P2-2@1 P2-2@2 R11-2 R17-2 R19-2
-        U1-2 U2-3 U3-3 U4-3 U5-5 U5-12 U6-3 U6-10 U6-11 U6-12 U7-1 U7-3 U7-5 U7-10
-        U7-11 U7-13 U7-27 U7-31 P6-1)
+        U1-2 U5-5 U5-12 U6-3 U6-10 U6-11 U6-12 U7-1 U7-3 U7-5 U7-10 U7-11 U7-13 U7-27
+        U7-31 P6-1 U2-3 U3-3 U4-3)
     )
     (net "Net-(B1-PadP3.2)"
       (pins B1-P3.2)
@@ -634,10 +626,10 @@
       (pins C20-1 R23-2 U7-6)
     )
     (net Mag_Probe
-      (pins P1-1 R12-2 U3-1 U4-1 P4-1)
+      (pins P1-1 R12-2 P4-1 U3-1 U4-1)
     )
     (net Port_2
-      (pins P2-1 R19-1 U2-1 P5-1)
+      (pins P2-1 R19-1 P5-1 U2-1)
     )
     (net "Net-(R1-Pad2)"
       (pins R1-2 U3-4)
@@ -788,20 +780,11 @@
       "Net-(U7-Pad8)" Port_1 Port_2 Port_2_Mix "Reflect_-" Reflect_Probe SCL
       SIMO SOMI
       (circuit
-        (use_via Via[0-1]_622.3:317.5_um)
+        (use_via Via[0-1]_600:304.8_um)
       )
       (rule
-        (width 279.4)
-        (clearance 202.03)
-      )
-    )
-    (class ENGR_357
-      (circuit
-        (use_via Via[0-1]_622.3:317.5_um)
-      )
-      (rule
-        (width 279.4)
-        (clearance 202.03)
+        (width 250)
+        (clearance 200.1)
       )
     )
   )

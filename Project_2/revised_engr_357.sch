@@ -2135,4 +2135,6 @@ F 3 "" H 12225 9125 50  0000 C CNN
 	1    12225 9125
 	0    -1   -1   0   
 $EndComp
+Text Notes 6500 1450 0    60   ~ 0
+This mag. probe should be \nmoved to directy measure Port 1
 $EndSCHEMATC
